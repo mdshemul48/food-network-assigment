@@ -38,18 +38,34 @@ p {
 .header-title {
   font-size: 60px;
 }
-.header-description {
+.header-description,
+.about-description {
   padding: 30px 200px 50px 0;
 }
 
 /* about us area */
 #about-section {
-  padding: 50px 0 0;
+  padding: 70px 0 0;
   background-image: url(images/aboutBG.jpg);
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-
 .about-person {
-  width: 300px;
+  width: 350px;
+}
+.about-me-area {
+  margin-top: 100px;
+}
+
+.about-title {
+  font-size: 40px;
+  margin: 10px 0;
+}
+.about-description {
+  line-height: 30px;
+  color: #18191f;
+}
+.contact-me-button {
+  margin: 50px 0;
 }
