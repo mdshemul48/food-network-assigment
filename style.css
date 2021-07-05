@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.fixable-container {
+  display: flex;
+}
+
+.half-width {
+  width: 50%;
+}
+.orange-color {
+  color: orange;
+}
+
+/* heading area */
+#header-area {
+  padding-top: 50px;
+}
+
+.header-area-left {
+  padding: 200px 0 0 300px;
+}
+
+.header-person {
+  padding-right: 500px;
+}
