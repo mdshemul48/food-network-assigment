@@ -81,10 +81,9 @@ p {
   font-size: 40px;
   margin-bottom: 20px;
 }
-.recipes-container {
-  justify-content: space-around;
-}
+
 .recipes-item {
+  margin: 0 90px;
   padding: 15px;
   width: 300px;
   border-radius: 15px;
