@@ -5,6 +5,8 @@
 
 .fixable-container {
   display: flex;
+  width: 80%;
+  margin: 50px auto;
 }
 
 .half-width {
@@ -14,15 +16,23 @@
   color: orange;
 }
 
+.link-button {
+  background-image: linear-gradient(to right, #fba24f, #ff1e1e);
+  padding: 18px 30px;
+  border-radius: 30px;
+  color: white;
+  text-decoration: none;
+}
+
 /* heading area */
-#header-area {
-  padding-top: 50px;
-}
-
 .header-area-left {
-  padding: 200px 0 0 300px;
+  padding: 200px 50px 0 100px;
 }
 
-.header-person {
-  padding-right: 500px;
+.header-title {
+  font-size: 60px;
+  color: #575757;
+}
+.header-description {
+  padding: 30px 200px 50px 0;
 }
