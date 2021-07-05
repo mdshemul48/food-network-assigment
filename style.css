@@ -3,6 +3,11 @@
   font-family: "Roboto", sans-serif;
 }
 
+h1,
+p {
+  color: #575757;
+}
+
 .fixable-container {
   display: flex;
   width: 80%;
@@ -31,7 +36,6 @@
 
 .header-title {
   font-size: 60px;
-  color: #575757;
 }
 .header-description {
   padding: 30px 200px 50px 0;
