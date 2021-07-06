@@ -1,3 +1,4 @@
+/* ======================== global css====================== */
 * {
   margin: 0;
   font-family: "Poppins", sans-serif;
@@ -30,7 +31,9 @@ p {
   text-decoration: none;
   box-shadow: 0 0 20px #11998e79;
 }
-/* navigation bar */
+/* ======================== global css end====================== */
+
+/* ======================== navigation bar ====================== */
 #nav-bar a {
   margin: 10px;
   font-weight: 600;
@@ -43,7 +46,9 @@ p {
 #nav-bar .nav-links a {
   margin-right: 20px;
 }
-/* heading area */
+/* ======================== navigation end ====================== */
+
+/* ======================== heading area ====================== */
 .header-area-left {
   padding: 200px 50px 0 100px;
 }
@@ -55,8 +60,9 @@ p {
 .about-description {
   padding: 30px 200px 50px 0;
 }
+/* ======================== heading area end ====================== */
 
-/* about us area */
+/* ======================== about us area ====================== */
 #about-section {
   padding: 70px 0 90px;
   background-image: url(images/aboutBg1.jpg);
@@ -82,8 +88,9 @@ p {
 .contact-me-button {
   margin: 50px 0;
 }
+/* ======================== about us area end====================== */
 
-/* my recipes */
+/* ======================== my recipes ====================== */
 .my-recipe-header {
   text-align: center;
   width: 50%;
@@ -108,8 +115,9 @@ p {
 .recipes-item h2 {
   margin: 20px 0;
 }
+/* ======================== my recipes end ====================== */
 
-/* app section */
+/* ======================== app section start ====================== */
 #app-section {
   margin-top: 200px;
 }
@@ -133,9 +141,9 @@ p {
   width: 150px;
   margin: 0 10px;
 }
+/* ======================== app section end ====================== */
 
-/* footer section */
-
+/* ======================== footer section ====================== */
 footer {
   background-color: #202523;
   text-align: center;
@@ -147,3 +155,4 @@ footer h1 {
   margin-bottom: 20px;
   color: white;
 }
+/* ======================== footer section end ====================== */
