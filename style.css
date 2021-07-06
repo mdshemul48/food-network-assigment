@@ -5,7 +5,7 @@
 
 h1,
 p {
-  color: #575757;
+  color: #393939;
 }
 
 .fixable-container {
@@ -18,16 +18,17 @@ p {
   width: 50%;
 }
 .orange-color {
-  color: orange;
+  color: #069c54;
 }
 
 .link-button {
-  background-image: linear-gradient(to right, #fba24f, #ff1e1e);
+  background-image: linear-gradient(to left, #11998e, #38ef7d);
+  font-weight: 600;
   padding: 18px 30px;
   border-radius: 30px;
   color: white;
   text-decoration: none;
-  box-shadow: 0px 0px 20px #fc8f49;
+  box-shadow: 0 0 20px #11998e;
 }
 
 /* heading area */
