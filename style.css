@@ -8,7 +8,7 @@ p {
   color: #393939;
 }
 
-.fixable-container {
+.flexible-container {
   display: flex;
   width: 80%;
   margin: 50px 10%;
@@ -18,7 +18,7 @@ p {
   width: 50%;
 }
 .green-color {
-  color: #069c54;
+  color: #069c54 !important;
 }
 
 .link-button {
@@ -30,7 +30,19 @@ p {
   text-decoration: none;
   box-shadow: 0 0 20px #11998e79;
 }
-
+/* navigation bar */
+#nav-bar a {
+  margin: 10px;
+  font-weight: 600;
+  color: #707070;
+  text-decoration: none;
+}
+#nav-bar .nav-links {
+  margin-left: auto;
+}
+#nav-bar .nav-links a {
+  margin-right: 20px;
+}
 /* heading area */
 .header-area-left {
   padding: 200px 50px 0 100px;
