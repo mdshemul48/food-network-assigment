@@ -1,158 +1,202 @@
 /* ======================== global css====================== */
+
 * {
-  margin: 0;
-  font-family: "Poppins", sans-serif;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
 }
 
 h1,
 p {
-  color: #393939;
+    color: #393939;
 }
 
 .flexible-container {
-  display: flex;
-  width: 80%;
-  margin: 50px 10%;
+    display: flex;
+    width: 80%;
+    margin: 50px 10%;
 }
 
 .half-width {
-  width: 50%;
+    width: 50%;
 }
+
 .green-color {
-  color: #069c54 !important;
+    color: #069c54 !important;
 }
 
 .link-button {
-  background-image: linear-gradient(to left, #11998e, #38ef7d);
-  font-weight: 600;
-  padding: 18px 30px;
-  border-radius: 30px;
-  color: white;
-  text-decoration: none;
-  box-shadow: 0 0 20px #11998e79;
+    background-image: linear-gradient(to left, #11998e, #38ef7d);
+    font-weight: 600;
+    padding: 18px 30px;
+    border-radius: 30px;
+    color: white;
+    text-decoration: none;
+    box-shadow: 0 0 20px #11998e79;
 }
+
+
 /* ======================== global css end====================== */
 
+
 /* ======================== navigation bar ====================== */
+
 #nav-bar a {
-  margin: 10px;
-  font-weight: 600;
-  color: #707070;
-  text-decoration: none;
+    margin: 10px;
+    font-weight: 600;
+    color: #707070;
+    text-decoration: none;
 }
+
 #nav-bar .nav-links {
-  margin-left: auto;
+    margin-left: auto;
 }
+
 #nav-bar .nav-links a {
-  margin-right: 20px;
+    margin-right: 20px;
 }
+
+
 /* ======================== navigation end ====================== */
 
+
 /* ======================== heading area ====================== */
+
 .header-area-left {
-  padding: 200px 50px 0 100px;
+    padding: 200px 50px 0 100px;
 }
 
 .header-title {
-  font-size: 60px;
+    font-size: 60px;
 }
+
 .header-description,
 .about-description {
-  padding: 30px 200px 50px 0;
+    padding: 30px 200px 50px 0;
 }
+
+
 /* ======================== heading area end ====================== */
 
+
 /* ======================== about us area ====================== */
+
 #about-section {
-  padding: 70px 0 90px;
-  background-image: url(images/aboutBg1.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+    padding: 70px 0 90px;
+    background-image: url(images/aboutBg1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
 .about-food-picture {
-  width: 80%;
-  padding: 0 0;
+    width: 80%;
+    padding: 0 0;
 }
+
 .about-me-area {
-  margin-top: 100px;
+    margin-top: 100px;
 }
 
 .about-title {
-  font-size: 40px;
-  margin: 10px 0;
+    font-size: 40px;
+    margin: 10px 0;
 }
+
 .about-description {
-  line-height: 30px;
+    line-height: 30px;
 }
+
 .contact-me-button {
-  margin: 50px 0;
+    margin: 50px 0;
 }
+
+
 /* ======================== about us area end====================== */
 
+
 /* ======================== my recipes ====================== */
+
 .my-recipe-header {
-  text-align: center;
-  width: 50%;
-  margin: 50px auto 0;
+    text-align: center;
+    width: 50%;
+    margin: 50px auto 0;
 }
+
 .recipe-title,
 .app-title {
-  font-size: 40px;
-  margin-bottom: 20px;
+    font-size: 40px;
+    margin-bottom: 20px;
 }
 
 .recipes-item {
-  margin: 0 90px;
-  padding: 17px;
-  width: 300px;
-  border-radius: 25px;
-  box-shadow: 0 0 25px rgba(0, 0, 0, 0.2);
+    margin: 0 90px;
+    padding: 17px;
+    width: 300px;
+    border-radius: 25px;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.2);
 }
+
 .recipes-item img {
-  width: 300px;
+    width: 300px;
 }
+
 .recipes-item h2 {
-  margin: 20px 0;
+    margin: 20px 0;
 }
+
+
 /* ======================== my recipes end ====================== */
 
+
 /* ======================== app section start ====================== */
+
 #app-section {
-  margin-top: 200px;
+    margin-top: 200px;
 }
+
 .app-image-area img {
-  padding-left: 100px;
-  width: 70%;
+    padding-left: 100px;
+    width: 70%;
 }
+
 .app-image-area {
-  padding: 50px;
+    padding: 50px;
 }
+
 .app-text-area {
-  margin-top: 200px;
+    margin-top: 200px;
 }
+
 .app-text-area h3 {
-  margin: 20px 0;
+    margin: 20px 0;
 }
+
 .app-text-area p {
-  margin: 50px 0;
+    margin: 50px 0;
 }
+
 .app-text-area img {
-  width: 150px;
-  margin: 0 10px;
+    width: 150px;
+    margin: 0 10px;
 }
+
+
 /* ======================== app section end ====================== */
 
+
 /* ======================== footer section ====================== */
+
 footer {
-  background-color: #202523;
-  text-align: center;
-  padding: 56px;
+    background-color: #202523;
+    text-align: center;
+    padding: 56px;
 }
 
 footer p,
 footer h1 {
-  margin-bottom: 20px;
-  color: white;
+    margin-bottom: 20px;
+    color: white;
 }
+
+
 /* ======================== footer section end ====================== */
