@@ -95,3 +95,15 @@ p {
 .recipes-item h2 {
   margin: 20px 0;
 }
+
+/* app section */
+#app-section {
+  margin-top: 200px;
+}
+.app-image-area img {
+  padding-left: 100px;
+  width: 80%;
+}
+.app-image-area {
+  padding: 50px;
+}
