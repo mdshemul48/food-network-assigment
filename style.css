@@ -125,10 +125,11 @@ p {
 /* footer section */
 
 footer {
-  background-color: black;
+  background-color: #202523;
   text-align: center;
   padding: 56px;
 }
+
 footer p,
 footer h1 {
   margin-bottom: 20px;
