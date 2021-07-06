@@ -6,13 +6,13 @@
 }
 
 h1,
+h3,
 p {
     color: #393939;
 }
 
 .flexible-container {
     display: flex;
-    width: 80%;
     margin: 50px 10%;
 }
 
