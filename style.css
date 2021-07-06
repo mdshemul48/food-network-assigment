@@ -129,19 +129,20 @@ p {
 }
 
 .recipes-item {
-    margin: 0 70px;
-    padding: 30px;
+    margin: 0 90px;
+    padding: 20px;
     width: 300px;
     border-radius: 25px;
     box-shadow: 0 0 25px rgba(0, 0, 0, 0.2);
 }
 
 .recipes-item img {
+    border-radius: 20px;
     width: 300px;
 }
 
 .recipes-item h2 {
-    margin: 20px 0;
+    margin: 15px 0;
 }
 
 
