@@ -77,7 +77,8 @@ p {
   width: 50%;
   margin: 10px auto;
 }
-.recipe-title {
+.recipe-title,
+.app-title {
   font-size: 40px;
   margin-bottom: 20px;
 }
@@ -102,8 +103,21 @@ p {
 }
 .app-image-area img {
   padding-left: 100px;
-  width: 80%;
+  width: 70%;
 }
 .app-image-area {
   padding: 50px;
+}
+.app-text-area {
+  margin-top: 200px;
+}
+.app-text-area h3 {
+  margin: 20px 0;
+}
+.app-text-area p {
+  margin: 50px 0;
+}
+.app-text-area img {
+  width: 150px;
+  margin: 0 10px;
 }
