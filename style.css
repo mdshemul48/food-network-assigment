@@ -121,3 +121,16 @@ p {
   width: 150px;
   margin: 0 10px;
 }
+
+/* footer section */
+
+footer {
+  background-color: black;
+  text-align: center;
+  padding: 56px;
+}
+footer p,
+footer h1 {
+  margin-bottom: 20px;
+  color: white;
+}
