@@ -46,15 +46,15 @@ p {
 
 /* about us area */
 #about-section {
-  padding: 70px 0 70px;
+  padding: 70px 0 90px;
   background-image: url(images/aboutBg1.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-.about-food {
-  width: 350px;
-  padding-left: 150px;
+.about-food-picture {
+  width: 80%;
+  padding: 0 0;
 }
 .about-me-area {
   margin-top: 100px;
