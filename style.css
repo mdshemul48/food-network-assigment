@@ -1,6 +1,6 @@
 * {
   margin: 0;
-  font-family: "Roboto", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 h1,
@@ -17,7 +17,7 @@ p {
 .half-width {
   width: 50%;
 }
-.orange-color {
+.green-color {
   color: #069c54;
 }
 
@@ -28,7 +28,7 @@ p {
   border-radius: 30px;
   color: white;
   text-decoration: none;
-  box-shadow: 0 0 20px #11998e;
+  box-shadow: 0 0 20px #11998e79;
 }
 
 /* heading area */
@@ -46,13 +46,13 @@ p {
 
 /* about us area */
 #about-section {
-  padding: 70px 0 0;
-  background-image: url(images/aboutBG.jpg);
+  padding: 70px 0 70px;
+  background-image: url(images/aboutBg1.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-.about-person {
+.about-food {
   width: 350px;
   padding-left: 150px;
 }
@@ -66,7 +66,6 @@ p {
 }
 .about-description {
   line-height: 30px;
-  color: #18191f;
 }
 .contact-me-button {
   margin: 50px 0;
